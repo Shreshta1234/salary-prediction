@@ -13,7 +13,7 @@ X_train, X_test = X[:split], X[split:]
 y_train, y_test = y[:split], y[split:]
 
 
-model = LinearRegression(learning_rate=0.01, n_iters=1000)
+model = LinearRegression(learning_rate=0.01, n_iters=5000)
 model.fit(X_train, y_train)
 
 
